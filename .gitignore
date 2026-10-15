@@ -1,0 +1,24 @@
+# Local Python installations and caches
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# macOS Finder metadata; keep the local Finder Icon files untouched
+.DS_Store
+Icon*
+
+# Local model weights (downloaded or supplied separately)
+*.pt
+
+# User-taught memory, feedback, and camera captures
+baby_memory.json
+rl_policy.json
+object_memory.pkl
+object_crops/
+cropped_objects/
+
+# Personal profile photo; provide your own locally if wanted
+assets/me_dp.png
